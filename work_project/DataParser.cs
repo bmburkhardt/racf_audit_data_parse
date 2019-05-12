@@ -284,8 +284,7 @@ namespace work_project
                    group_id = "",
                    user_id = "",
                    id_type = "",
-                   emp_name = "",
-                   strCommand = "";
+                   emp_name = "";
             command.CommandText = "insert into system.racf_group_connections(system_id,group_id,user_id,id_type,emp_name,report_dt) with blah as ( ";
             string dateString = "TO_DATE('" + _reportDt.Month + "/" + _reportDt.Day + "/" + _reportDt.Year + "','MM/DD/YYYY')";
             var fileSize = buff.Length;
